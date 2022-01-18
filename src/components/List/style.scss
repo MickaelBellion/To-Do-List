@@ -1,0 +1,13 @@
+@use 'src/styles/vars' as v;
+
+.list-item {
+  display: block;
+  background: v.$color-list-item;
+  border-radius: 3px;
+  padding: v.$gutter;
+  margin: v.$gutter * .5 0;
+  &--done {
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+}

@@ -1,0 +1,7 @@
+@use 'src/styles/vars' as v;
+
+.todolist {
+  width: 90%;
+  max-width: 500px;
+  margin: v.$gutter * 2 auto;
+}

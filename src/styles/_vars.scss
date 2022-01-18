@@ -1,0 +1,8 @@
+@use 'sass:color';
+
+$color-base: #2e5849;
+$color-bg-form: color.scale($color-base, $lightness: -30%);
+$color-border-form: color.scale($color-base, $lightness: -40%);
+$color-list-item: #eee;
+
+$gutter: 1rem;
